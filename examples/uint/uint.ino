@@ -2,7 +2,7 @@
 void setup() {
  Serial.begin(9600);
  unsigned int InNum  = 60000;
- byte  Byte[4];
+ byte  Byte[2];
  unsigned int OutNum;
  
 Serial.print("In:");
