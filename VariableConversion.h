@@ -3,6 +3,9 @@
 2017年1月6日
 数据类型拆分
 */
+#ifndef VariableConversion_h
+#define VariableConversion_h
+
 #if defined(ARDUINO) && ARDUINO >= 100
  #include "Arduino.h"
 #else
@@ -24,3 +27,6 @@ void LongToByte(long Num,uint8_t *Byte);
 /*ULong*/
 void ByteToUlong(unsigned long &Num,uint8_t *Byte);
 void UlongToByte(unsigned long Num,uint8_t *Byte);
+
+
+#endif
