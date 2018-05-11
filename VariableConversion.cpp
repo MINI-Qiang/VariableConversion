@@ -72,6 +72,7 @@ void ByteToInt(int &Num,uint8_t *Byte)
 	Num = Conversion.Val;
 }
 
+
 /*²ð½âint*/
 
 void IntToByte(int Num,uint8_t *Byte)
@@ -95,6 +96,7 @@ void ByteToUint(unsigned int &Num,uint8_t *Byte)
 	}
 	Num = Conversion.Val;
 }
+
 
 /*²ð½âUint*/
 
